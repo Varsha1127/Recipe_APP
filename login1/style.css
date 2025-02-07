@@ -1,0 +1,38 @@
+h1{
+    color: deeppink;
+    background-color: rgb(73, 242, 248);
+    text-align: center;
+    border: 1px solid black;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(193, 61, 245);
+font-size:x-large;
+font-style: italic;
+text-transform: capitalize;
+text-decoration: dotted;
+line-height: 1.5em;
+text-align: justify;
+text-indent: 50px;
+ border-top-width: 7px;
+ border-bottom-width: 3px;
+ border-style: solid;
+ border-color: darksalmon;
+ border-top-style:double ;
+ /* [for border width]-->first one for top second num for left anf right and  3rd numbr for bottom*/
+ border-width: 7px 1px 10px;
+ padding: 17px;
+ margin: 20px;
+ box-shadow: 10px 10px 10px;
+ -moz-box-shadow:10px 10px 10px;
+}
+a:link{
+    color: rgb(43, 226, 67);
+}
+a:hover{
+    color: pink;
+}
+li{
+    display:inline;
+    margin:10px;
+}

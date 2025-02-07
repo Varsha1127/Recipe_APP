@@ -1,0 +1,45 @@
+body{
+   background-image: url(/media/bg1.jpg); 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.regform{
+   width: 500px;
+   margin: 250px auto;
+ background-color: rgba(0,0,0,.15);/*for giving transparency in bagroung*/
+padding: 10px 20px 30px;
+font-size: 30px;
+border-radius: 10px;/*border end curve ah irukum*/
+}
+.regform h3{
+   text-align: center;
+   color: rgb(36, 57, 51);
+}
+.regform .textlabel{
+   display: block;/*which it brings the table box to next line so use display:block method,display:inline means prints in same line*/
+}
+.input input{/*so that you can avoid this for btn input type */
+width: 100%;/*label shows full length*/
+font-size: 1.5em;
+border: 1px solid rgb(106, 206, 106);
+border-radius: 8px;/*border end curve ah irukum*/
+box-shadow: 2px;
+padding: 10px 10px;/*box la typr pannum bodhu top,bottom and left,right la touch agama iruka use pandrom*/
+box-sizing: border-box;/*type pannum bodhu box ah vittu veliya pogama iruka use pandrom*/
+margin: 5px 0px 15px ;/*space between box and email then space btwn box and pswrd*/
+}
+input:focus{
+   background-color: rgb(12, 175, 216);/*changes the color of the table while typing*/
+}
+.btn{
+   text-align: center;
+}
+button{
+   background-color: rgba(255, 20, 145, 0.287);
+font-size: 30px;
+margin-top:20px ;
+padding: 15px 20px;
+border-radius: 8px;
+}
+.radio.input{
+   transform: scale(1.5em);/*for radio size increasing*/
+}

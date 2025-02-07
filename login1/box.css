@@ -1,0 +1,35 @@
+h1{
+    border: 5px solid rgb(179, 211, 51);
+    background-color: darkturquoise;
+}
+p{
+    width: 300px;
+    height: 400px;
+    text-align: justify;
+    border: 3px dotted red;
+    background-color: antiquewhite;
+}
+table{
+    width: 300px;
+    /*margin to align center*/
+    margin:auto;
+    border-spacing: 10px 20px;/*gives space to each box*/
+}
+th{
+    text-transform: uppercase;
+    text-align: left;
+    /*bodder bottom gives underline */
+   border-bottom: 2px solid black;
+   padding: 10px;
+}
+td{
+    padding: 10px;
+    border: 1px solid black;
+}
+.amount{
+    text-align: right;
+}
+/*gives row color alternatively in the table*/
+tr:nth-child(even){
+    background-color: rgb(227, 255, 196);
+}

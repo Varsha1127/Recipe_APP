@@ -1,0 +1,31 @@
+.outerbox{
+    background-color: antiquewhite;
+    min-height: 400px;
+    display: flex;
+    justify-content:center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;/*will take the box to next line when you adjust the page*/
+/*flex-direction: column;*/
+}
+.box{
+    width: 150px;
+    height: 200px;
+    background-color: palevioletred;
+    border: 2px solid white;
+}
+.container{
+    display: flex;/*instead of using float its better to use flex*/
+}
+.para1{
+background-color: greenyellow;
+flex:1/*gives equal width to all paragraph*/
+}
+.para2{
+    background-color: bisque;
+    flex:1
+}
+.para3{
+    background-color: darkseagreen;
+    flex:1
+}
